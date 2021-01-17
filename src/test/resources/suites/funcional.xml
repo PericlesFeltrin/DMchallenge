@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Teste de Funcional" verbose="2">
+<test name="Teste Funcional">
+    <groups>
+        <run>
+            <include name="funcional" />
+        </run>
+    </groups>
+
+    <packages>
+        <package name="com.periclesfeltrin.api.*" />
+    </packages>
+</test>
+</suite>

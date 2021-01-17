@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Teste de Contrato" verbose="2">
+    <test name="Teste Contrato">
+        <groups>
+            <run>
+                <include name="contrato" />
+            </run>
+        </groups>
+        <packages>
+            <package name="com.periclesfeltrin.api.*" />
+        </packages>
+    </test>
+</suite>
